@@ -3,7 +3,7 @@
 - [Probability and Statistics by Schiller John](https://www.flipkart.com/schaum-s-outline-probability-statistics/p/itm1fd2823c963c1?pid=9780071795579&lid=LSTBOK978007179557974NDPY&marketplace=FLIPKART&cmpid=content_book_8965229628_gmc)
 - [Quantum computing](http://michaelnielsen.org/)
 
-#### 
+#### Thanks Nandita Muralidharan for sharing the data sources
 - [Kaggle](https://www.kaggle.com/datasets)
 - [Quandl -Financial data](https://archive.ics.uci.edu/ml/index.php )
 - [US Government Open Dataset](https://www.quandl.com/ )
