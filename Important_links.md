@@ -4,6 +4,7 @@
 - [Quantum computing](http://michaelnielsen.org/)
 
 #### Thanks Nandita Muralidharan for sharing the data sources
+- [Youtube Channel](https://www.youtube.com/c/3blue1brown/search?query=k%20mean)
 - [Kaggle](https://www.kaggle.com/datasets)
 - [Quandl -Financial data](https://archive.ics.uci.edu/ml/index.php )
 - [US Government Open Dataset](https://www.quandl.com/ )
