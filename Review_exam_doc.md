@@ -1,4 +1,5 @@
-## ML Class Sep 5th:  [Class 4 reff doc](https://14653191105202215679.googlegroups.com/attach/ef565b999631/20200905_Class%204%20Notes_KaranPardeshi.pdf?part=0.1&view=1&vt=ANaJVrFgHaij7IGVoFsQp49fl15KGglwN4cF89zLwS3QbGbpkUAB9oCoL8mcgX_ji39Ay5glcDYhhtXz0EvipNhgeIXjEeRSPPVgrd-NvIZjR3JkhAheTAw)
+# ML Class
+## Sep 5th, Class 4 [Reff Doc](https://14653191105202215679.googlegroups.com/attach/ef565b999631/20200905_Class%204%20Notes_KaranPardeshi.pdf?part=0.1&view=1&vt=ANaJVrFgHaij7IGVoFsQp49fl15KGglwN4cF89zLwS3QbGbpkUAB9oCoL8mcgX_ji39Ay5glcDYhhtXz0EvipNhgeIXjEeRSPPVgrd-NvIZjR3JkhAheTAw)
 - Sampling Distributions
 -	Deterministic – which can be calculated and given a accurate value. Stone falling from 100m
 -	Sarcastic variable - Forecast of weather – close to real value
@@ -35,3 +36,15 @@
 - **Unsupervised** – Hypothesis and optimization done by model itself. There is no supervisor to check the output. The machine itself does the entire job.
 - [Other reff definations for supervised vs unsupervised](https://github.com/vurachaitanya/ML_AI/blob/master/Define.md)
 
+
+## Sep 12, Class 5 [Reff Doc](https://14653191105202215679.googlegroups.com/attach/1b6df9c5a144c/20200912_Neural%20Network%20Intro_GKS.pdf?part=0.1&view=1&vt=ANaJVrG8DWw4qPvZICK_3IE1NlJsUE57GUp3kg5v9QBLUlqRwAL00xk_yP_rFS4aNffghQOVDwrtYBlZaFf0_SZgTMNXlNE0LzqbTl0lhVE9FW6CoWtC-wk) 
+
+- ** Rectangle vs ellipse **
+- Improves accuracy
+- Shape fits more data points
+- Corners points handles better
+- Ellips can better represents compared to rectangle area
+- **Disadvantages** - extremely complex in higher dimensions, - Boundary is complex
+- **Artificial neural networks - ANN**
+- **Deep networks**
+- **Activation functions**
