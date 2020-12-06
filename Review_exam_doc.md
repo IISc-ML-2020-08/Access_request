@@ -1,4 +1,4 @@
-## ML Class Sep 5th:  (Class 4)
+## ML Class Sep 5th:  [Class 4 reff doc](https://14653191105202215679.googlegroups.com/attach/ef565b999631/20200905_Class%204%20Notes_KaranPardeshi.pdf?part=0.1&view=1&vt=ANaJVrFgHaij7IGVoFsQp49fl15KGglwN4cF89zLwS3QbGbpkUAB9oCoL8mcgX_ji39Ay5glcDYhhtXz0EvipNhgeIXjEeRSPPVgrd-NvIZjR3JkhAheTAw)
 - Sampling Distributions
 -	Deterministic – which can be calculated and given a accurate value. Stone falling from 100m
 -	Sarcastic variable - Forecast of weather – close to real value
