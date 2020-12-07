@@ -118,5 +118,15 @@ X Y Class X Y Class
 - In backpropagation, you simply backpropagate the error (the "cost" that you compute by comparing the calculated output and the known, correct target output)
 - Why reverse and not forward? Because it is computationally cheaper! If we'd do it forward-wise, we'd successively multiply large matrices for each layer until we multiply a large matrix by a vector in the output layer
 - However, if we start backwards, that is, we start multiplying a matrix by a vector, we get another vector and so forth. So, I'd say the beauty in backpropagation is that we are doing more efficient matrix-vector multiplications instead of matrix-matrix multiplications
-- 
 
+#### Loss function:
+- [Ref Doc](https://algorithmia.com/blog/introduction-to-loss-functions)
+- At its core, a loss function is incredibly simple: it’s a method of evaluating how well your algorithm models your dataset. If your predictions are totally off, your loss function will output a higher number. If they’re pretty good, it’ll output a lower number. As you change pieces of your algorithm to try and improve your model, your loss function will tell you if you’re getting anywhere.
+- In fact, we can design our own (very) basic loss function to further explain how it works. For each prediction that we make, our loss function will simply measure the absolute difference between our prediction and the actual value. In mathematical notation, it might look something like abs(y_predicted – y). Here’s what some situations might look like if we were trying to predict
+- Notice how in the loss function we defined, it doesn’t matter if our predictions were too high or too low. All that matters is how incorrect we were, directionally agnostic. This is not a feature of all loss functions: in fact, your loss function will vary significantly based on the domain and unique context of the problem that you’re applying machine learning to. In your project, it may be much worse to guess too high than to guess too low, and the loss function you select must reflect that.
+- A lot of the loss functions that you see implemented in machine learning can get complex and confusing, loss functions–measuring how well your algorithm is doing on your dataset–you can keep that complexity in check.
+- **Mean Squared Error (MSE)** is the workhorse of basic loss functions: it’s easy to understand and implement and generally works pretty well. To calculate MSE, you take the difference between your predictions and the ground truth, square it, and average it out across the whole dataset.
+
+
+## Ref Doc:
+- [MIT Doc on Deeplearning](https://www.deeplearningbook.org/)
