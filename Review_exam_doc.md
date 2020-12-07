@@ -63,6 +63,9 @@
 -	With respect to a bivariate continuous distribution, define marginal distribution -> y=integral from infinite to -infinite f(x,y)dx
 -	What is the assumption made in estimating parameters using a Likelihood function? ->IID (identical)
 -	Where does the learning information get stored in an Artificial Neural Network? ->weights
+- A box contains three coins, two regular coins and one fake coin with both sides being heads.
+  * You pick up a coin at random and toss it . What is the probability that it lands heads up?
+  * You pick a coin and toss it and get heads. What is the probability that it is the 2 headed coin?
 -	The following are the values of two input variables which classify an output variable, With this training data, set up a Generic, Specific and Candidate Hypothesis, and find the optimal hypothesis. If an additional set of inputs (10,4) is then obtained, find the classification of the new point as per the earlier training.
 
 ```
@@ -75,3 +78,8 @@ X Y Class X Y Class
 14 14.5 + 20 15 -
 15 5 - 22 12 -
 ```
+
+## Class 6, Sep 26th :
+-	As we are considering 2 **Activation functions** , **BINARY** step function and **BIPOLAR** step function. 
+-	For Binary. Now input function f (in) = 1 if ( in > 0) , 0 if (in <= 0)->**BINARY **
+-	For Bipolar f (in) = 1 if (in > 0), -1 if (in <= 0) ->**BIPOLA**
