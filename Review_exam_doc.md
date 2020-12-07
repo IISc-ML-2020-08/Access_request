@@ -86,6 +86,7 @@ X Y Class X Y Class
 
 
 ## External data more on NN:
+- [Example with details on classification in NN](https://towardsdatascience.com/deep-learning-weekly-piece-whats-a-neural-network-aa0df888d8a2)
 - [Reff Doc:](https://towardsdatascience.com/multi-layer-neural-networks-with-sigmoid-function-deep-learning-for-rookies-2-bf464f09eb7f)
 - Advantages of nonlinear activation function: Without a nonlinear activation function, the neural network is calculating linear combinations of values, or in the case of a deep network, linear combinations of linear functions (i.e., lines). Note that a linear combination of lines is again a line. 
 - [Playground for Neural networks tensorflow](http://playground.tensorflow.org/)
@@ -104,3 +105,18 @@ X Y Class X Y Class
 - So basically, a small change in any weight in the input layer of our perceptron network could possibly lead to one neuron to suddenly flip from 0 to 1, which could again affect the hidden layer’s behavior, and then affect the final outcome. Like we said already, we want a learning algorithm that could improve our neural network by gradually changing the weights, not by flat-no-response or sudden jump.
 #### Sigmoid function: 
 ![Sigmoid function](https://miro.medium.com/max/1050/1*TdlBJnoH3GcKwAIFv1ASxg.jpeg)
+- its curve and its derivative
+- Sigmoid function produces similar results to step function in that the output is between 0 and 1. The curve crosses 0.5 at z=0, which we can set up rules for the activation function, such as: If the sigmoid neuron’s output is larger than or equal to 0.5, it outputs 1; if the output is smaller than 0.5, it outputs 0.
+- Sigmoid function does not have a jerk on its curve. It is smooth and it has a very nice and simple derivative of σ(z) * (1-σ(z)), which is differentiable everywhere on the curve.
+- Non-linear just means that the output we get from the neuron, which is the dot product of some inputs x (x1, x2, …, xm) and weights w (w1, w2, …,wm) plus bias and then put into a sigmoid function.
+- Now, the computer can’t really “see” a digit like we humans do, but if we dissect the image into an array of 784 numbers like [0, 0, 180, 16, 230, …, 4, 77, 0, 0, 0], then we can feed this array into our neural network. The computer can’t understand an image by “seeing” it, but it can understand and analyze the pixel numbers that represent an image.
+- neural networks become better by repetitively training themselves on data so that they can adjust the weights in each layer of the network to get the final results/actual output closer to the desired output? So when we actually train this neural network with all the training examples 
+
+#### Why backpropagation
+- [Back propagation with example](https://mattmazur.com/2015/03/17/a-step-by-step-backpropagation-example/)
+- [Ref Doc:](https://www.quora.com/What-is-the-best-visual-explanation-for-the-back-propagation-algorithm-for-neural-networks/answer/Sebastian-Raschka-1)
+- In backpropagation, you simply backpropagate the error (the "cost" that you compute by comparing the calculated output and the known, correct target output)
+- Why reverse and not forward? Because it is computationally cheaper! If we'd do it forward-wise, we'd successively multiply large matrices for each layer until we multiply a large matrix by a vector in the output layer
+- However, if we start backwards, that is, we start multiplying a matrix by a vector, we get another vector and so forth. So, I'd say the beauty in backpropagation is that we are doing more efficient matrix-vector multiplications instead of matrix-matrix multiplications
+- 
+
