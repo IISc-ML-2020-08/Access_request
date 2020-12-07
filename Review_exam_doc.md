@@ -83,3 +83,23 @@ X Y Class X Y Class
 -	As we are considering 2 **Activation functions** , **BINARY** step function and **BIPOLAR** step function. 
 -	For Binary. Now input function f (in) = 1 if ( in > 0) , 0 if (in <= 0)->**BINARY **
 -	For Bipolar f (in) = 1 if (in > 0), -1 if (in <= 0) ->**BIPOLA**
+
+
+## External data more on NN:
+- [Reff Doc:](https://towardsdatascience.com/multi-layer-neural-networks-with-sigmoid-function-deep-learning-for-rookies-2-bf464f09eb7f)
+- Advantages of nonlinear activation function: Without a nonlinear activation function, the neural network is calculating linear combinations of values, or in the case of a deep network, linear combinations of linear functions (i.e., lines). Note that a linear combination of lines is again a line. 
+- [Playground for Neural networks tensorflow](http://playground.tensorflow.org/)
+- Backpropagation, a procedure to repeatedly adjust the weights so as to minimize the difference between actual output and desired output
+- ** Brief on backpropagation**, we iterated the importance of designing a neural network so that the network can learn from the difference between the desired output (what the fact is) and actual output (what the network returns) and then send a signal back to the weights and ask the weights to adjust themselves? This will make the network’s output closer to the desired output next time we run it.
+- Hidden Layers, which are neuron nodes stacked in between inputs and outputs, allowing neural networks to learn more complicated features (such as XOR logic)
+- A hidden layer transforms a single-layer perceptron into a multi-layer perceptron. Hidden layers of a neural network is literally just adding more neurons in between the input and output layers.
+- we have m input data (x1, x2, …, xm), we call this m features. A feature is just one variable we consider as having an influence to a specific outcome and we multiply each of the m features with a weight (w1, w2, …, wm) and sum them all together, this is a dot product
+- The procedure of how input values are forward propagated into the hidden layer, and then from hidden layer to the output
+
+#### Sigmoid Neurons: An Introduction of why (Step vs Sigmoid) 
+- So now we have a more sophisticatedly structured neural network with hidden layers. But we haven’t solved the activation problem with the step function.
+- If the activation function is linear, then you can stack as many hidden layers in the neural network as you wish, and the final output is still a linear combination of the original input data
+- This linearity means that it cannot really grasp the complexity of non-linear problems like XOR logic or patterns separated by curves or circles.
+- **Example** : Think about it: this girl (or boy) has got some serious bipolar issues! One day (for z < 0), (s)he’s all “quiet” and “down”, giving you zero response. Then another day (for z ≥ 0), (s)he’s suddenly “talkative” and “lively”, speaking to you nonstop. Heck of a drastic change! There’s no transition for her/his mood, and you don’t know when it’s going down or up. Yeah…that’s step function
+- So basically, a small change in any weight in the input layer of our perceptron network could possibly lead to one neuron to suddenly flip from 0 to 1, which could again affect the hidden layer’s behavior, and then affect the final outcome. Like we said already, we want a learning algorithm that could improve our neural network by gradually changing the weights, not by flat-no-response or sudden jump.
+#### Sigmoid function: 
