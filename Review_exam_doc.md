@@ -30,7 +30,7 @@
 - **Classification:** 
   * Linearly separable classes: A straight line acts as a separator and helps us in classifying 2 separate classes, i.e. 2 separate entities Oranges and Bananas on their respective attributes (size, color, weight etc). Find the closest points and find their mid-point and we take perpendicular bisector to separate them.
   * Linearly Non separable classes: which single line we can’t separate the classes, then use multiple lines like square, ellipse etc, Draw a rectangle which is tightest to all the point with outer and inner rectangle.
-  * What if we have totally mixed up data.  In that case we cannot classify, we need to change the parameters --> We can also take help of domain expert. TRIAL and ERROR.
+  * What if we have totally mixed up data.  In that case we cannot classify, we need to change the parameters --> We can also take help of domain expert. TRIAL and ERROR.
 - **Machine learning problem solving** - Flow – Data – Data Cleaning – Keep some data for Training and some for testing and Evaluate the output. The data can be in 80:20 or 70: 30 ratios (Train and Test).
 - **Supervised** – Well we have a supervisor to check that weather the output is right or wrong. We already know the output; hence we check if machine has delivered right output or not.
 - **Unsupervised** – Hypothesis and optimization done by model itself. There is no supervisor to check the output. The machine itself does the entire job.
@@ -47,4 +47,31 @@
 - **Disadvantages** - extremely complex in higher dimensions, - Boundary is complex
 - **Artificial neural networks - ANN**
 - **Deep networks**
-- **Activation functions**
+- **Activation functions** -> Takes to be input and output should be 0 to 1, ->	H11= I1w1+I2w2+I3w3 +b1 (H11 – hidden layer, I-Input, w-weight, b- bias) 
+- [Baseic of Activation function and why weights and biases are added  with detailed explanation](https://www.kdnuggets.com/2020/11/building-complete-artificial-neural-network.html)
+- **Practical Computer Vision Applications Using Deep Learning with CNNs: With Detailed Examples in Python Using TensorFlow and Kivy** Good book to read
+
+
+## Exam on Sep 19
+-	If X ~ N(0,1), what is P(X=0.3)? -> probability of x=0.3 is 0. As x ranges from 0 or 1.
+-	A card is drawn at random from a pack of cards. What is the probability that it is neither a spade nor a Jack? ->52 -16/52 =36/52
+-	For a bivariate sample of size 56, a Minimum Least Squared line if fit, and the parameters b0 and b1 are estimated as 3.6 and 1.7. What will be the values of b0 and b1 if we use the Maximum Likelihood method? Assume the underlying process is Gaussian.  -> y=mx+c
+-	State Mitchell’s definition of Machine Learning -> A machine performing task T is said to be learning if the performance as measured by P increases with Experience E – Tom Mitchells definition.
+-	Define Regression of Y on X -> 
+-	List one advantage and one disadvantage of using an ellipse for a classification model where two parameters x1 and x2 decide the classes. ->
+-	Prove that 𝑥̅= ∑ 𝑥/𝑛 is an unbiased estimate of the population mean m ->
+-	With respect to a bivariate continuous distribution, define marginal distribution -> y=integral from infinite to -infinite f(x,y)dx
+-	What is the assumption made in estimating parameters using a Likelihood function? ->IID (identical)
+-	Where does the learning information get stored in an Artificial Neural Network? ->weights
+-	The following are the values of two input variables which classify an output variable, With this training data, set up a Generic, Specific and Candidate Hypothesis, and find the optimal hypothesis. If an additional set of inputs (10,4) is then obtained, find the classification of the new point as per the earlier training.
+
+```
+X Y Class X Y Class
+2 10 - 15 13 +
+5 17 - 16 14 +
+7 3 - 17 15 +
+8 20 - 17 23 -
+12 14 + 18 14 +
+14 14.5 + 20 15 -
+15 5 - 22 12 -
+```
