@@ -58,7 +58,7 @@
 -	For a bivariate sample of size 56, a Minimum Least Squared line if fit, and the parameters b0 and b1 are estimated as 3.6 and 1.7. What will be the values of b0 and b1 if we use the Maximum Likelihood method? Assume the underlying process is Gaussian.  -> y=mx+c
 -	State Mitchell’s definition of Machine Learning -> A machine performing task T is said to be learning if the performance as measured by P increases with Experience E – Tom Mitchells definition.
 -	Define Regression of Y on X -> 
--	List one advantage and one disadvantage of using an ellipse for a classification model where two parameters x1 and x2 decide the classes. ->
+-	List one advantage and one disadvantage of using an ellipse for a classification model where two parameters x1 and x2 decide the classes. ->**ADV** Improves accuracy, Shape fits more data points, Corners points handles better,Ellips can better represents compared to rectangle area **Disadvantages** extremely complex in higher dimensions, - Boundary is complex.
 -	Prove that 𝑥̅= ∑ 𝑥/𝑛 is an unbiased estimate of the population mean m ->
 -	With respect to a bivariate continuous distribution, define marginal distribution -> y=integral from infinite to -infinite f(x,y)dx
 -	What is the assumption made in estimating parameters using a Likelihood function? ->IID (identical)
