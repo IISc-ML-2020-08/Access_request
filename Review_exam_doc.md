@@ -171,8 +171,6 @@ Y = w(b) + Σx * w = 0
 - A lot of the loss functions that you see implemented in machine learning can get complex and confusing, loss functions–measuring how well your algorithm is doing on your dataset–you can keep that complexity in check.
 - **Mean Squared Error (MSE)** is the workhorse of basic loss functions: it’s easy to understand and implement and generally works pretty well. To calculate MSE, you take the difference between your predictions and the ground truth, square it, and average it out across the whole dataset.
 
-
-
-
 ## Ref Doc:
 - [MIT Doc on Deeplearning](https://www.deeplearningbook.org/)
+- [ANN ref Doc](https://data-flair.training/blogs/learning-rules-in-neural-network/)
