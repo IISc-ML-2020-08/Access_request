@@ -94,6 +94,8 @@ X Y Class X Y Class
     * ∆Wi = Xi * Y --- Where Xi is input and Y is target output. 
     * Bias b(new) = b(old) + ∆b
     * ∆b = y
+    
+![Hebbians Formula](https://www.google.com/imgres?imgurl=https%3A%2F%2Fcdn.softwaretestinghelp.com%2Fwp-content%2Fqa%2Fuploads%2F2019%2F08%2FHebbian-Learning-Rule-Step-2.png&imgrefurl=https%3A%2F%2Fwww.softwaretestinghelp.com%2Fneural-network-learning-rules%2F&tbnid=EQlq9RMjV7c-aM&vet=12ahUKEwjgvO7v_L7tAhVDcK0KHf8ADhoQMygaegUIARDeAQ..i&docid=ztRVMApFIc6xbM&w=483&h=122&q=Hebbs%20rule%20with%20truth%20table%20example&ved=2ahUKEwjgvO7v_L7tAhVDcK0KHf8ADhoQMygaegUIARDeAQ)
 
 - Modify the weights according to the following Wi(new)=Wi(old)+Delta Wi
    * According to Hebbs rule – w1 = w2 = b = 0
