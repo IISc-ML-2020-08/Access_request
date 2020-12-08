@@ -44,6 +44,10 @@
 -	By adjusting weights, we will reach the optimum values.
 -	As we are moving down it is call gradient descent.
 -	If we have 1000 variables, then we need to do 6K iterations of additions (6 addition). 3k weights x1k variables iterations should be done. Very complex for higher values. 
--	**Stochastic gradient descent**
+-	**Stochastic gradient descent** SGD
 -	Randomly choose the points and implement Gradient descent formula.
--	Computationally efficient is very high.
+-	Computationally efficient is very high in SGD
+-	Cost function = (output – target)2- square
+-	Wn=Wo-Ndc/dw (N= Learning rate, w0 old weight, Wn=New Weights)
+-	Cost function= Σ(output – target)2 
+-	Back propagation - output layer to input layer.
