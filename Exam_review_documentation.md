@@ -14,3 +14,4 @@
 -	[Michael nielsen official book](http://static.latexstudio.net/article/2018/0912/neuralnetworksanddeeplearning.pdf)
 -	[Reference artical](http://colah.github.io/post/2014-03-NN-Manifolds-Topology/)
 -	[Reference blog](http://distill.pub/2017/momentum/)
+- [Problem solv with examples](http://www.scbaghdad.com/files/lacture2017/comp/Neural%20Networks.pdf)
