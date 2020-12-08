@@ -84,6 +84,16 @@ X Y Class X Y Class
 -	For Binary. Now input function f (in) = 1 if ( in > 0) , 0 if (in <= 0)->**BINARY **
 -	For Bipolar f (in) = 1 if (in > 0), -1 if (in <= 0) ->**BIPOLA**
 
+## Hebb’s Rule: 
+**Hebbian Learning Algorithm Hebbs Rules** 
+- Initialize all weights and bias 
+-  Modify the weights according to the following rule. 
+    * Wi(new) = Wi(old) + ∆Wi 
+    * ∆Wi = Xi * Y --- Where Xi is input and Y is target output. 
+    * Bias b(new) = b(old) + ∆b
+    * ∆b = y
+
+
 
 ## External data more on NN:
 - [Example with details on classification in NN](https://towardsdatascience.com/deep-learning-weekly-piece-whats-a-neural-network-aa0df888d8a2)
@@ -103,6 +113,7 @@ X Y Class X Y Class
 - This linearity means that it cannot really grasp the complexity of non-linear problems like XOR logic or patterns separated by curves or circles.
 - **Example** : Think about it: this girl (or boy) has got some serious bipolar issues! One day (for z < 0), (s)he’s all “quiet” and “down”, giving you zero response. Then another day (for z ≥ 0), (s)he’s suddenly “talkative” and “lively”, speaking to you nonstop. Heck of a drastic change! There’s no transition for her/his mood, and you don’t know when it’s going down or up. Yeah…that’s step function
 - So basically, a small change in any weight in the input layer of our perceptron network could possibly lead to one neuron to suddenly flip from 0 to 1, which could again affect the hidden layer’s behavior, and then affect the final outcome. Like we said already, we want a learning algorithm that could improve our neural network by gradually changing the weights, not by flat-no-response or sudden jump.
+
 #### Sigmoid function: 
 ![Sigmoid function](https://miro.medium.com/max/1050/1*TdlBJnoH3GcKwAIFv1ASxg.jpeg)
 - its curve and its derivative
@@ -126,6 +137,8 @@ X Y Class X Y Class
 - Notice how in the loss function we defined, it doesn’t matter if our predictions were too high or too low. All that matters is how incorrect we were, directionally agnostic. This is not a feature of all loss functions: in fact, your loss function will vary significantly based on the domain and unique context of the problem that you’re applying machine learning to. In your project, it may be much worse to guess too high than to guess too low, and the loss function you select must reflect that.
 - A lot of the loss functions that you see implemented in machine learning can get complex and confusing, loss functions–measuring how well your algorithm is doing on your dataset–you can keep that complexity in check.
 - **Mean Squared Error (MSE)** is the workhorse of basic loss functions: it’s easy to understand and implement and generally works pretty well. To calculate MSE, you take the difference between your predictions and the ground truth, square it, and average it out across the whole dataset.
+
+
 
 
 ## Ref Doc:
