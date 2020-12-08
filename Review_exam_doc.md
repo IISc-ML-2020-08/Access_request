@@ -85,15 +85,48 @@ X Y Class X Y Class
 -	For Bipolar f (in) = 1 if (in > 0), -1 if (in <= 0) ->**BIPOLA**
 
 ## Hebb’s Rule: 
+[Ref Doc:](https://14653191105202215679.googlegroups.com/attach/6caeb96d9ca5e/Deep%20learning%20Class%206%20Notes_karan_p.docx.pdf?part=0.1&view=1&vt=ANaJVrEEXB0Qg9qJfmOT0mEJz8ODkY494dsWg3DRC93tfiBr13gCww9FeilaqICCVD9EROe8ps5NZUqm5fg4vyJYp2b1bTMHEUAyYX0O1TetZ5A5kBSK1vg)
+
 **Hebbian Learning Algorithm Hebbs Rules** 
 - Initialize all weights and bias 
--  Modify the weights according to the following rule. 
+- Modify the weights according to the following rule. 
     * Wi(new) = Wi(old) + ∆Wi 
     * ∆Wi = Xi * Y --- Where Xi is input and Y is target output. 
     * Bias b(new) = b(old) + ∆b
     * ∆b = y
 
+- Modify the weights according to the following Wi(new)=Wi(old)+Delta Wi
+   * According to Hebbs rule – w1 = w2 = b = 0
+   * ∆W1 = X1*Y
+   * ∆W2 = X2 * Y
+   * ∆b = b*Y
+   * W1 = old(W1) + new∆W1
 
+- **AND – Gate example**
+```
+X1 X2 1(Xb) Y ∆W1 ∆W2 ∆b W1 W2 b
+1 1 1 1 1 1 1 1 1 1
+1 0 1 0 0 0 0 1 1 1
+0 1 1 0 0 0 0 1 1 1
+0 0 1 0 0 0 0 1 1 1
+
+```
+- **Example 2 – Bipolar inputs**  You can say Bivariate inputs in which all zeros are turned to -1 in inputs.
+  * According to Hebbs rule – w1 = w2 = b = 0
+
+```
+X1 X2 1(Xb) Y ∆W1 ∆W2 ∆b W1 W2 b
+1 1 1 1 1 1 1 1 1 1
+1 -1 1 -1 -1 1 -1 0 2 0
+-1 1 1 -1 1 -1 -1 1 1 -1
+-1 -1 1 -1 1 1 -1 2 2 -
+```
+Y = w(b) + Σx * w = 0
+
+- We see the two partitions i.e. the black dotted line separating + and –
+- So What is Hebbs rule telling us ------?
+  * Ans: The Hebbian rule is based on the rule that weight vector increases proportionally to the input and learning signal i.e. the output. The weights are incremented by adding the product of the input and output to the old weights.
+  * W (new) = w (old) +x*y
 
 ## External data more on NN:
 - [Example with details on classification in NN](https://towardsdatascience.com/deep-learning-weekly-piece-whats-a-neural-network-aa0df888d8a2)
