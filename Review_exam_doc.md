@@ -142,7 +142,8 @@ Y = w(b) + Σx * w = 0
 - we have m input data (x1, x2, …, xm), we call this m features. A feature is just one variable we consider as having an influence to a specific outcome and we multiply each of the m features with a weight (w1, w2, …, wm) and sum them all together, this is a dot product
 - The procedure of how input values are forward propagated into the hidden layer, and then from hidden layer to the output
 
-#### Sigmoid Neurons: An Introduction of why (Step vs Sigmoid) 
+#### Sigmoid Neurons: An Introduction of why (Step vs Sigmoid) :
+- [Class Notes](https://14653191105202215679.googlegroups.com/attach/a31bc8f5c9940/Class7Notes_ANN_priyanka.pdf?part=0.1&view=1&vt=ANaJVrHbx1R-wVnEImTOm3__QP_CNhyoT7csIhY35cgn8bpzSWwjxQSBi78p8RCYcutpBr3fLnatK4JgxOIzlOgZww1uavEVprKqrTkesH9VD9lNJeCLDTE)
 - So now we have a more sophisticatedly structured neural network with hidden layers. But we haven’t solved the activation problem with the step function.
 - If the activation function is linear, then you can stack as many hidden layers in the neural network as you wish, and the final output is still a linear combination of the original input data
 - This linearity means that it cannot really grasp the complexity of non-linear problems like XOR logic or patterns separated by curves or circles.
