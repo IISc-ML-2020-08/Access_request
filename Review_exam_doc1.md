@@ -1,13 +1,16 @@
 # PART 2
 
 ### Class 7, OCT 3rd :
+- [Class Notes](https://14653191105202215679.googlegroups.com/attach/a31bc8f5c9940/Class7Notes_ANN_priyanka.pdf?part=0.1&view=1&vt=ANaJVrHbx1R-wVnEImTOm3__QP_CNhyoT7csIhY35cgn8bpzSWwjxQSBi78p8RCYcutpBr3fLnatK4JgxOIzlOgZww1uavEVprKqrTkesH9VD9lNJeCLDTE)
 - [Ref on Sigmoid vs  Tanh vs ReLU](https://machinelearningmastery.com/rectified-linear-activation-function-for-deep-learning-neural-networks/)
 -	**Activation function** is the function in an artificial neuron that delivers an output based on inputs.
 -	** Stochastic descent** : Adjusting the weights until we reach the final required target is call sarcastic descent 
 -	From Wiki **Stochastic gradient descent** (often abbreviated SGD) is an iterative method for optimizing an objective function with suitable smoothness properties (e.g. differentiable or subdifferentiable). It can be regarded as a stochastic approximation of gradient descent optimization, since it replaces the actual gradient (calculated from the entire data set) by an estimate thereof (calculated from a randomly selected subset of the data). Especially in high-dimensional optimization problems this reduces the computational burden, achieving faster iterations in trade for a lower convergence rate
 -	Layer by layer and optimize. But as we don’t have the target until where the optimization should be done. We choose to use Back/Forword propagation.
 -	**Forward propagation** : you keep adjusting weight (Stochastic descent) and keep adjusting weights as we know the target, adjust the weights, until you reach the target. Cost for completion/ CPU computation is very hight.
--	**Back propagation** :
+-	**Back propagation** : The Backpropagation algorithm looks for the minimum value of the error function in weight space using a technique called the delta rule or gradient descent. The weights that minimize the error function is then considered to be a solution to the learning problem. 
+- [BP Artical with examples](https://www.edureka.co/blog/backpropagation/)
+- [Ref Doc](The Backpropagation algorithm looks for the minimum value of the error function in weight space using a technique called the delta rule or gradient descent. The weights that minimize the error function is then considered to be a solution to the learning problem. )
 
 #### Relu (Rectified Linear Unit): 
 - Non-linear activation function,  it does not activate all the neurons at the same time.
