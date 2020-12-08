@@ -25,3 +25,25 @@
 - When inputs of both the nodes are either positive or negative, then a strong positive weight exists between the nodes. If the input of a node is positive and negative for other, a strong negative weight exists between the nodes.
 - At the start, values of all weights are set to zero. This learning rule can be used0 for both soft- and hard-activation functions. Since desired responses of neurons are not used in the learning procedure, this is the unsupervised learning rule. The absolute values of the weights are usually proportional to the learning time, which is undesired.
 
+## Class 8 Oct 10
+-	[Class Notes](https://14653191105202215679.googlegroups.com/attach/78edc9260b6be/Class8_notes_SGD_ShruthiM.pdf?part=0.1&view=1&vt=ANaJVrFHdeY9VPjDh4wu5JXU8RwM17WqGdObiNN61PS0tF6E5kqENtqmsHgxgW88hzaI61uoK94abydlkOMW78-z1W_cSTvPwH3ykFT9gkZYUuyGkKaWkN4)
+#### Agenda
+-	Back propagation 
+-	Hibbs rule
+-	Modified Delta rule
+-	Gradient Descent
+-	Stochastic gradient descent
+
+-	Going calculus is expensive. Competitional expensive and inefficient 
+-	Better to go with numerical optimization technics, which will come to near solution to our solution.  
+-	Chain rule in calculus
+-	**Gradient Descent formula**
+-	dc/dw =2[(y1-x1)+ (y2-x2)+ (y3-x3)] 
+-	Wn=wo – N(dc/dw) 
+-	N = Learning rate , Wn= New weights, Wo= Old weights, x1,x2,x3 are first second third iterations of input values and y1 y2 y3 are outputs for respective x input iterations. 
+-	By adjusting weights, we will reach the optimum values.
+-	As we are moving down it is call gradient descent.
+-	If we have 1000 variables, then we need to do 6K iterations of additions (6 addition). 3k weights x1k variables iterations should be done. Very complex for higher values. 
+-	**Stochastic gradient descent**
+-	Randomly choose the points and implement Gradient descent formula.
+-	Computationally efficient is very high.
