@@ -51,3 +51,12 @@
 -	Wn=Wo-Ndc/dw (N= Learning rate, w0 old weight, Wn=New Weights)
 -	Cost function= Σ(output – target)2 
 -	Back propagation - output layer to input layer.
+
+
+# Class 8th, Oct 17
+- [Class notes](https://14653191105202215679.googlegroups.com/attach/34cac17cc049c/ClassNotes-%20Back%20Propagation-17Oct-by-Prasenjit.pdf?part=0.1&view=1&vt=ANaJVrFbL3nvkdZ-pNfuGJwObAstKWMfnWslJ1lf-56v_IkXqe8UEfXrHFvKGZO5GK324S5iK4dfivpAVwVSyncfuehLaFGMni9dSldZLjser987YySaLDc)
+
+#### Drawback of Stochastic gradient descent
+-	SGD Stochastic gradient descent – it has step until some value after it oscillate for long time to reach final goal. Which is so called as zone of confusion is the drawback.
+-	Step size for a learning rate is large then coming to a min point may take out of scope because of more oscillations, as steps size is more. SGD is sensitive to learning rate. LR(learning rate) start with 0.1 rather than higher values 0.5,0.8 etc.
+-	Pytorch we can set learning rate at high value and later can be changed.
