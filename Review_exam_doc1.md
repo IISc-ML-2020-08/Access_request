@@ -53,7 +53,7 @@
 -	Back propagation - output layer to input layer.
 
 
-# Class 8th, Oct 17
+### Class 9th, Oct 17
 - [Class notes](https://14653191105202215679.googlegroups.com/attach/34cac17cc049c/ClassNotes-%20Back%20Propagation-17Oct-by-Prasenjit.pdf?part=0.1&view=1&vt=ANaJVrFbL3nvkdZ-pNfuGJwObAstKWMfnWslJ1lf-56v_IkXqe8UEfXrHFvKGZO5GK324S5iK4dfivpAVwVSyncfuehLaFGMni9dSldZLjser987YySaLDc)
 
 #### Drawback of Stochastic gradient descent
