@@ -56,6 +56,25 @@
 ### Class 9th, Oct 17
 - [Class notes](https://14653191105202215679.googlegroups.com/attach/34cac17cc049c/ClassNotes-%20Back%20Propagation-17Oct-by-Prasenjit.pdf?part=0.1&view=1&vt=ANaJVrFbL3nvkdZ-pNfuGJwObAstKWMfnWslJ1lf-56v_IkXqe8UEfXrHFvKGZO5GK324S5iK4dfivpAVwVSyncfuehLaFGMni9dSldZLjser987YySaLDc)
 
+#### GD Vs SGD
+-	[Ref doc](https://www.quora.com/Whats-the-difference-between-gradient-descent-and-stochastic-gradient-descent)
+-	[Source](https://blog.paperspace.com/intro-to-optimization-in-deep-learning-gradient-descent/)
+-	GD : At any point of our curve, we can define a plane that is tangential to the point. one direction will give us the direction in which the function has the steepest ascent. This direction is given by the gradient
+-	We perform descent along the direction of the gradient, hence, it's called Gradient Descent.
+-	Now, once we have the direction we want to move in, we must decide the size of the step we must take. The the size of this step is called the learning rate. We must chose it carefully to ensure we can get down to the minima.
+-	If we go too fast, we might overshoot the minima, and keep bouncing along the ridges of the "valley" without ever reaching the minima. Go too slow, and the training might turn out to be too long to be feasible at all. Even if that's not the case, very slow learning rates make the algorithm more prone to get stuck in a minima
+-	Once we have our gradient and the learning rate, we take a step, and recompute the gradient at whatever position we end up at, and repeat the process.
+-	At the minima, where the contour is almost flat, you would expect the gradient to be almost zero. In fact, it's precisely zero for the point of minima.
+-	In practice, we might never exactly reach the minima, but we keep oscillating in a flat region in close vicinity of the minima. As we oscillate our this region, the loss is almost the minimum we can achieve, and doesn't change much as we just keep bouncing around the actual minimum. Often, we stop our iterations when the loss values haven't improved in a pre-decided number, say, 10, or 20 iterations. When such a thing happens, we say our training has converged, or convergence has taken place.
+-	A widely used technique in gradient descent is to have a variable learning rate, rather than a fixed one. Initially, we can afford a large learning rate. But later on, we want to slow down as we approach a minima. An approach that implements this strategy is called Simulated annealing, or decaying learning rate. In this, the learning rate is decayed every fixed number of iterations.
+-	You are at global minima, now if you initialze your weights at point A, then you're gonna converge to the local minima, and there's no way gradient descent will get you out of there, once you converge to the local minima.
+-	So, how do we go about escaping local minima and saddle points, while trying to converge to a global minima. The answer is randomness.
+-	Till now we were doing gradient descent with the loss function that had been created by summing loss over all possible examples of the training set. If we get into a local minima or saddle point, we are stuck. A way to help GD escape these is to use what is called Stochastic Gradient Descent.
+-	**SGD** In stochastic gradient descent, instead of taking a step by computing the gradient of the loss function creating by summing all the loss functions, we take a step by computing the gradient of the loss of only one randomly sampled (without replacement) example. In contrast to Stochastic Gradient Descent, where each example is stochastically chosen, our earlier approach processed all examples in one single batch, and therefore, is known as Batch Gradient Descent.
+-	This means, at every step, we are taking the gradient of a loss function, which is different from our actual loss function (which is a summation of loss of every example). The gradient of this "one-example-loss" at a particular may actually point in a direction slighly different to the gradient of "all-example-loss".
+-	This also means, that while the gradient of the "all-example-loss" may push us down a local minima, or get us stuck at a saddle point, the gradient of "one-example-loss" might point in a different direction, and might help us steer clear of these.
+
+
 #### Drawback of Stochastic gradient descent
 -	SGD Stochastic gradient descent – it has step until some value after it oscillate for long time to reach final goal. Which is so called as zone of confusion is the drawback.
 -	Step size for a learning rate is large then coming to a min point may take out of scope because of more oscillations, as steps size is more. SGD is sensitive to learning rate. LR(learning rate) start with 0.1 rather than higher values 0.5,0.8 etc.
