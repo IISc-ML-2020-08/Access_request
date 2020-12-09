@@ -80,3 +80,23 @@
 -	SGD Stochastic gradient descent – it has step until some value after it oscillate for long time to reach final goal. Which is so called as zone of confusion is the drawback.
 -	Step size for a learning rate is large then coming to a min point may take out of scope because of more oscillations, as steps size is more. SGD is sensitive to learning rate. LR(learning rate) start with 0.1 rather than higher values 0.5,0.8 etc.
 -	Pytorch we can set learning rate at high value and later can be changed.
+
+#### Class 10, 24th Oct
+#### Decision tree:
+-	Decision tree should be built with lots of training data features. 
+-	Check history (savings account) for a bank example of a loan given to a person.
+-	Drawbacks of decision tree in a credit card frod example is, 98% days is normal transaction only 2% data is frod but most of the weights in a node of decision tree gos to one side and learn according to it. And less level leaf nodes on other side are considered as noise and would have ignored.
+-	Pruning should be done if data is going all in one side. 
+-	Pre-pruning (decide what all are important and given high weights) 
+-	Post pruning (once the data is dumped which side the nodes are heave those are been pruned)
+-	It’s a failed model as most of the experiments its failed.
+-	Neural networks vs Decision tree are more of classification
+-	In Decision tree is not influencing another nodes/tree. Ex salary does not depend on police case in that state Decision tree is good. 
+#### Entropy : Thermo dynamics 
+-	From Decision tree, Probability of positive vs probability of negative.
+-	Information of probability of positive is = -log2P
+#### Entropy = H = - Σ P log2P -- weighted sum of information
+-	Getting a disorder from given data
+-	Entropy ranges from 0 to 1.
+#### Information gain = entropy of parent – weighted avg of entropy 
+#### Gini index = 1 – Σ P2
