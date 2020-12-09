@@ -57,6 +57,7 @@
 - [Class notes](https://14653191105202215679.googlegroups.com/attach/34cac17cc049c/ClassNotes-%20Back%20Propagation-17Oct-by-Prasenjit.pdf?part=0.1&view=1&vt=ANaJVrFbL3nvkdZ-pNfuGJwObAstKWMfnWslJ1lf-56v_IkXqe8UEfXrHFvKGZO5GK324S5iK4dfivpAVwVSyncfuehLaFGMni9dSldZLjser987YySaLDc)
 
 #### GD Vs SGD
+- [python func](https://towardsdatascience.com/why-gradient-descent-isnt-enough-a-comprehensive-introduction-to-optimization-algorithms-in-59670fd5c096)
 -	[Ref doc](https://www.quora.com/Whats-the-difference-between-gradient-descent-and-stochastic-gradient-descent)
 -	[Source](https://blog.paperspace.com/intro-to-optimization-in-deep-learning-gradient-descent/)
 -	GD : At any point of our curve, we can define a plane that is tangential to the point. one direction will give us the direction in which the function has the steepest ascent. This direction is given by the gradient
