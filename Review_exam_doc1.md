@@ -82,7 +82,7 @@
 -	Pytorch we can set learning rate at high value and later can be changed.
 
 #### Class 10, 24th Oct
-[Class Notes](https://14653191105202215679.googlegroups.com/attach/5d99f09c49960/Decision%20Trees.pdf?part=0.1&view=1&vt=ANaJVrE07Zc3YekP9GNUhF10ChjKZI20RS60KN5nCGAARwR3w13r946HZaY1WmI3Ro6xmnS8rLLpu1PLWadUpRk59uzMze8UrqqvMSM6Am0ooKdF08Cj56Q)
+[Class Notes](https://14653191105202215679.googlegroups.com/attach/5d99f09c49960/Decision%20Trees.pdf?part=0.1&view=1&vt=ANaJVrGYHIZAug3GsUq8IK9J7xwwjRQ_nvJ3YsisrlVm0lI_VP2fjf_ahATVeTKJD8-Jg6hf49Z9xqTaE5w1h-658jDXL6nC3LucqFtThBj13O3Ts1Md-vo)
 #### Decision tree:
 -	Decision tree should be built with lots of training data features. 
 -	Check history (savings account) for a bank example of a loan given to a person.
