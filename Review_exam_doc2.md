@@ -1,6 +1,6 @@
 # Part 3
 
-#### Class 10, 31st Oct
+#### Class 11, 31st Oct
 - A1 Under what condition does the relative frequency equal to the probability of an event?
 - Sol: 
 - A2 If 𝑓(𝑥) = 1 /𝑏−𝑎 is a valid density function in the region 𝑎 ≤ 𝑥 ≤ 𝑏, what is its first moment?
@@ -72,3 +72,28 @@ Sample datasets:
 https://www.kaggle.com/sudalairajkumar/novel-corona-virus-2019-datase [example csv file to see the features: https://docs.google.com/spreadsheets/d/e/2PACX-1vQU0SIALScXx8VXDX7yKNKWWPKE1YjFlWc6VTEVSN45CklWWf-uWmprQIyLtoPDA18tX9cFDr-aQ9S6/pubhtml ] . The dataset has some details of patients affected by coronavirus in China like age , gender, etc.
 https://data.gov.in/resources-from-web-service/3630701  . Small and simple dataset on  Foreign Direct Investment (FDI) Equity Inflows in India.
 ```
+#### Class 11, 7th Nov:
+
+- [Class notes](https://14653191105202215679.googlegroups.com/attach/d203ce2701fb/7_nov_Notes_Trupthi.pdf?part=0.1&view=1&vt=ANaJVrFygro1V-H84HpbORO3BX5V4s_59wMDo-0dP3AEZ1ZxBqgF7KhcS7TN-O_m_86AgIYZ-ypgahcNgp9zV0SOOt-OA0flUR6fmewEFq1eP2hFM-W9_V4)
+- **Decision tree - Self-Driving Cars:**
+```
+Grade Bumpiness Speed limit speed
+Steap Bumpy Y Slow
+Steap Bumpy Y Slow
+flat Bumpy N fast
+Steap Smooth N fast
+```
+- P(slow) = 0.5 P(fast) = 0.5
+- Entropy = (0.5log (0.5)) +(0.5log (0.5)) =1
+- Total no at Parent =4
+- Total no at left child =3
+- Total no at right child =1
+- Weighted entropy of child =3/4*0.9 + 0= 0.675
+- IG (grade)=1-0.675= 0.325
+- IG(Bumpiness)=0
+- IG (Speed limit) =1
+
+#### Example Fraud Detection:
+- Let’s consider there is a data of credit cards which has millions of transactions, by considering 1% of fraud has been detected in turn 1 lakh people have been affected. here there is a dependency on one side of the class which is minority (99% non-fraud transactions)
+- Here accuracy depends on training data, how well is the algorithm is trained. Aim is to identify 1% of fraud detection hence it should be taken care when data is biased on one side where there can be a condition machine cannot learn properly. Becomes important to retain fraud conditions in training data.
+- It would be difficult for any algorithm to find out if the data sets are biased on one side. In above case if it reaches 99% accuracy we still failed to identify 1% of fraud data.
