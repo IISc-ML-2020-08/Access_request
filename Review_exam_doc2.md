@@ -118,3 +118,12 @@ Negative| False Negative |True negative
 -	Problem 2: We have 1000 fruits which could be either Banana, Orange and others. We have data for the following features All of which are binary, so data looks like:
 -	[Solution](https://nititek.wordpress.com/2014/01/31/conditional-probability-bayes-theorem-naive-bayes-classifier/)
 - ![Formula](https://www.analyticsvidhya.com/wp-content/uploads/2015/09/Bayes_rule-300x172.png)
+
+
+
+#### Hidden Markov Model
+-	**Morkov Process** Series of random Variables (not independent) assuming where one variable depends on previous variable. Suppose X=(x1.x2……xt) can take value S=(s1,s2 …sn)
+- Going out from one node all paths if we add = 1, so out path of any node has a relation with other paths. which explains in below dig
+- ![Morkov Process](https://miro.medium.com/max/800/1*0xjHjL19uK0d6llcEJ0Z0w.png)
+- ![Morkov Process1](https://images.deepai.org/glossary-terms/945e0f3f297a4c7e919740b3977107ca/hiddenmarkov.png)
+- ![Morkov Absorbent](https://i.ytimg.com/vi/hMceS_HIcKY/hqdefault.jpg)
