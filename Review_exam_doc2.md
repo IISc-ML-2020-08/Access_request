@@ -113,3 +113,8 @@ Negative| False Negative |True negative
 - Precision -→ True positive/ ((True positive) + (False positive))
 - If recall increase precision decreases.
 - Reading Assignment: Check on the applications on recall and precision or both examples
+
+#### Naïve Bayes Models:
+-	Problem 2: We have 1000 fruits which could be either Banana, Orange and others. We have data for the following features All of which are binary, so data looks like:
+-	[Solution](https://nititek.wordpress.com/2014/01/31/conditional-probability-bayes-theorem-naive-bayes-classifier/)
+- ![Formula](https://www.analyticsvidhya.com/wp-content/uploads/2015/09/Bayes_rule-300x172.png)
