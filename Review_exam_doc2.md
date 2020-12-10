@@ -124,6 +124,14 @@ Negative| False Negative |True negative
 #### Hidden Markov Model
 -	**Morkov Process** Series of random Variables (not independent) assuming where one variable depends on previous variable. Suppose X=(x1.x2……xt) can take value S=(s1,s2 …sn)
 - Going out from one node all paths if we add = 1, so out path of any node has a relation with other paths. which explains in below dig
+-	Limited memory: 
+-	Time invariance
+-	Transition probabilities 
+-	Initial state probability 
+-	State transition diagram – if we add all outside going sources, it gives 1 is call transition matrix 
+-	Absorbing : which goes into it not outside is call Absorbing
+-	Captive state/ Non absorbing state: where it has data flowing outside to others.
+
 - ![Morkov Process](https://miro.medium.com/max/800/1*0xjHjL19uK0d6llcEJ0Z0w.png)
 - ![Morkov Process1](https://images.deepai.org/glossary-terms/945e0f3f297a4c7e919740b3977107ca/hiddenmarkov.png)
 - ![Morkov Absorbent](https://i.ytimg.com/vi/hMceS_HIcKY/hqdefault.jpg)
