@@ -97,3 +97,19 @@ Steap Smooth N fast
 - Let’s consider there is a data of credit cards which has millions of transactions, by considering 1% of fraud has been detected in turn 1 lakh people have been affected. here there is a dependency on one side of the class which is minority (99% non-fraud transactions)
 - Here accuracy depends on training data, how well is the algorithm is trained. Aim is to identify 1% of fraud detection hence it should be taken care when data is biased on one side where there can be a condition machine cannot learn properly. Becomes important to retain fraud conditions in training data.
 - It would be difficult for any algorithm to find out if the data sets are biased on one side. In above case if it reaches 99% accuracy we still failed to identify 1% of fraud data.
+
+
+## Measures:
+- False Positive and False negative
+- **Confusion Matrix:**
+
+Prediction|xxx|Actual
+-----|---|---
+xxxx|Positive|negative
+Positive| True Positive| False Positive
+Negative| False Negative |True negative
+
+- Recall-→ True positive/ ((True positive) + (False negative))
+- Precision -→ True positive/ ((True positive) + (False positive))
+- If recall increase precision decreases.
+- Reading Assignment: Check on the applications on recall and precision or both examples
