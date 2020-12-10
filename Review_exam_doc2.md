@@ -136,3 +136,14 @@ Negative| False Negative |True negative
 - ![Morkov Process](https://miro.medium.com/max/800/1*0xjHjL19uK0d6llcEJ0Z0w.png)
 - ![Morkov Process1](https://images.deepai.org/glossary-terms/945e0f3f297a4c7e919740b3977107ca/hiddenmarkov.png)
 - ![Morkov Absorbent](https://i.ytimg.com/vi/hMceS_HIcKY/hqdefault.jpg)
+
+#### Class 12,  14th Nov
+-	[Class Notes]( https://14653191105202215679.googlegroups.com/attach/f9c9e5324aee/HiddenMarkovModel_GKS.pdf?part=0.1&view=1&vt=ANaJVrEuMLa_Bm_Tf9NDGV6kZvVCiJWQAO0mU0OHTFejRHJaghJt4tyZb__fYNUtDdGxS2d3NIKmRImJXzrsL6m1ZjiKWKdroNFttf4YmCtS6WBTLxaDVcU)
+-	Hidden markov model perdition is used in NLP in predicting the sentences which would be coming next with this model. 
+-	[Ice tea example](https://pdfs.semanticscholar.org/5902/6d0d9c0546a3d0d9e445e8d6b7d3aebf3d29.pdf)
+-	[HMM with other model](https://profs.info.uaic.ro/~ciortuz/SLIDES/hmm.pdf)
+-	[Problem statement]( https://www.site.uottawa.ca/~nat/Courses/NLP-Course/Old-Version/NLP-Lecture-11/tsld005.htm)
+-	Soft drink machine, 2 states it can be cola preferring or  ice team preferring, I switches between them as show in state diagram. If a machine only has a tendency to give cola in cola preferring state and ice tea in ice tea preference state and also given by following probability matrix. 
+- All Formulas of models in 16 PAGES [All Formulas](http://nlp.skku.edu/talks/GenerativeDiscriminative(Youngjoong%20Ko).pdf)
+
+
