@@ -34,3 +34,41 @@
 - A simple Neural Network is shown below. The initial values of the weights are given below. w1 = 0.1; w2 = 0.4; w3 = -0.2; w4 = 0.2; w5 = 0.2 and w6 = -0.5. The target output T = 0.1 One of the input set from the training data is I1 = 0.4 and I2 = -0.7. For this input values, execute the back propagation for updating w1. Assume all the nodes in the hidden layer and the output layer has Sigmoid activation,and the Input nodes have identity activation and η is 0.1.
 •	Sol: Chain rule. Gradient calculation, forward task, back propagation.
 
+
+### Data sets
+- [Link](https://archive.ics.uci.edu/ml/datasets/Student+Performance)  - As mentioned , the tasks include both classification and regression analysis. The dataset has 649 entries and 33 feature values [x0,x1,...,x32].
+- [Link](https://archive.ics.uci.edu/ml/datasets/Wine+Quality)   - This dataset is also suitable for both classification and regression. There are 4898 entries and 12 feature values. However as it is mentioned, the dataset has imbalance, so data for good wines may be much lesser than data for normal wines, which could be a challenge.
+- [link](https://archive.ics.uci.edu/ml/datasets/Forest+Fires)   -  The dataset has 517 entries and 13 features. Essentially it is a regression problem but we need to figure out if classification can also be done.
+- [These are some datasets that are very popularly used to practice and learn machine learning. A comprehensive list is mentioned in below article:](https://machinelearningmastery.com/standard-machine-learning-datasets/)
+- [Data set](https://groups.google.com/d/msgid/ccemachinelearning2020augdec/CAA_asQhGPXn4np%3D0j6doJ3W-tvjXGj%3DQnT4dAimkt8UjPXemWw%40mail.gmail.com.)
+
+#### Some other sample data:
+```
+Kaggle:
+https://www.kaggle.com/datasets
+
+UCI:
+https://archive.ics.uci.edu/ml/index.php
+
+Quandl [Financial data]:
+https://www.quandl.com/
+
+US Government Open Dataset:
+https://www.data.gov/
+
+Indian Government OpenDataset:
+https://data.gov.in/
+
+World Bank Dataset:
+https://data.worldbank.org/
+
+Group Lens dataset [Recommendation systems eg:Movies] : 
+https://grouplens.org/  
+
+Awesome Public Dataset: 
+https://github.com/awesomedata/awesome-public-datasets/
+
+Sample datasets:
+https://www.kaggle.com/sudalairajkumar/novel-corona-virus-2019-datase [example csv file to see the features: https://docs.google.com/spreadsheets/d/e/2PACX-1vQU0SIALScXx8VXDX7yKNKWWPKE1YjFlWc6VTEVSN45CklWWf-uWmprQIyLtoPDA18tX9cFDr-aQ9S6/pubhtml ] . The dataset has some details of patients affected by coronavirus in China like age , gender, etc.
+https://data.gov.in/resources-from-web-service/3630701  . Small and simple dataset on  Foreign Direct Investment (FDI) Equity Inflows in India.
+```
