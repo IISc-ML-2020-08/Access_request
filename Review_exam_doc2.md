@@ -100,6 +100,7 @@ Steap Smooth N fast
 
 
 ## Measures:
+[Detailed explained](https://towardsdatascience.com/beyond-accuracy-precision-and-recall-3da06bea9f6c)
 - False Positive and False negative
 - **Confusion Matrix:**
 
