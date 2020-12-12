@@ -133,6 +133,7 @@ Y = w(b) + Σx * w = 0
 ## External data more on NN:
 - [Example with details on classification in NN](https://towardsdatascience.com/deep-learning-weekly-piece-whats-a-neural-network-aa0df888d8a2)
 - [Reff Doc:](https://towardsdatascience.com/multi-layer-neural-networks-with-sigmoid-function-deep-learning-for-rookies-2-bf464f09eb7f)
+- ![Learning Perceptron](https://miro.medium.com/max/1402/1*ZMJxMF9pJyIz1YBz62cO6g.jpeg)
 - Advantages of nonlinear activation function: Without a nonlinear activation function, the neural network is calculating linear combinations of values, or in the case of a deep network, linear combinations of linear functions (i.e., lines). Note that a linear combination of lines is again a line. 
 - [Playground for Neural networks tensorflow](http://playground.tensorflow.org/)
 - Backpropagation, a procedure to repeatedly adjust the weights so as to minimize the difference between actual output and desired output
@@ -162,6 +163,7 @@ Y = w(b) + Σx * w = 0
 #### Why backpropagation
 - [Back propagation with example](https://mattmazur.com/2015/03/17/a-step-by-step-backpropagation-example/)
 - [Ref Doc:](https://www.quora.com/What-is-the-best-visual-explanation-for-the-back-propagation-algorithm-for-neural-networks/answer/Sebastian-Raschka-1)
+- ![backpropagation](https://cdn-images-1.medium.com/max/800/1*_KMMFvRP5X9kC59brI0ykw.png)
 - In backpropagation, you simply backpropagate the error (the "cost" that you compute by comparing the calculated output and the known, correct target output)
 - Why reverse and not forward? Because it is computationally cheaper! If we'd do it forward-wise, we'd successively multiply large matrices for each layer until we multiply a large matrix by a vector in the output layer
 - However, if we start backwards, that is, we start multiplying a matrix by a vector, we get another vector and so forth. So, I'd say the beauty in backpropagation is that we are doing more efficient matrix-vector multiplications instead of matrix-matrix multiplications
