@@ -21,3 +21,6 @@
 - [4898 entries and 12 feature](https://archive.ics.uci.edu/ml/datasets/Wine+Quality)
 - [517 entries and 13 features](https://archive.ics.uci.edu/ml/datasets/Forest+Fires)
 - [popularly used to practice and learn machine learning](https://machinelearningmastery.com/standard-machine-learning-datasets/)
+
+## 
+- [Gradient Descent Local vs Global Min](https://blog.paperspace.com/intro-to-optimization-in-deep-learning-gradient-descent/)
